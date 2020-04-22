@@ -1,0 +1,2 @@
+docker run -d --name MyJenkins -p 50000:50000 -p 8080:8080 --mount source=new-vol,target=/var/jenkins_home jenkins/jenkins
+
